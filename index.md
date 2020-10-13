@@ -1,8 +1,5 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/siyucen/siyucen.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to My Pages
+I am an undergraduate student in [Southern University of Science and Technology](https://www.sustech.edu.cn/) (SUSTech) in Shenzhen, China. This webpage will share some notes in the lectures and seminars I am taking.
 
 ### Markdown
 
