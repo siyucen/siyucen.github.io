@@ -10,7 +10,7 @@ I am an undergraduate student in [Southern University of Science and Technology]
   Email: sycen111@gmail.com
  </p>
   
-  ## Seminars
+## Seminars
   
    [Applied and Computational Topology](https://sustech-topology.github.io/)
 
