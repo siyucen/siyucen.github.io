@@ -16,5 +16,9 @@ I am an undergraduate student in [Southern University of Science and Technology]
 
          
    <a href="https://sustech-topology.github.io/" target="_blank">Applied and Computational Topology</a> 
+   
+   Geometry Analysis
+   
+   Lie Groups
         
 
