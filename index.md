@@ -6,4 +6,6 @@ I am an undergraduate student in [Southern University of Science and Technology]
  <a href="CV_SiyuCen.pdf" target="_blank">CV</a>
  </p>
  
- Email: sycen111@gmail.com
+ <p>
+  Email: sycen111@gmail.com
+ </p>
