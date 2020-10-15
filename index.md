@@ -9,14 +9,12 @@ I am an undergraduate student in [Southern University of Science and Technology]
  <p>
   Email: sycen111@gmail.com
  </p>
- ### Seminars
-  <a href="https://sustech-topology.github.io/" target="_blank">Applied and Computational Topology</a> 
   
   
   
 <h3><a id="T"></a>Seminars</h3>
 
          
-             <a href="https://sustech-topology.github.io/" target="_blank">Applied and Computational Topology</a> 
+   <a href="https://sustech-topology.github.io/" target="_blank">Applied and Computational Topology</a> 
         
 
