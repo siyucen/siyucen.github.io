@@ -13,6 +13,8 @@ I am an undergraduate student in [Southern University of Science and Technology]
 ## Seminars
   
    [Applied and Computational Topology](https://sustech-topology.github.io/)
+   
+   [Lie Groups](http://siyucen.github.io/LieGroups/)
 
          
 
