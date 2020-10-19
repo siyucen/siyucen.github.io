@@ -1,22 +1,325 @@
-## Welcome to My Pages
-I am an undergraduate student in [Southern University of Science and Technology](https://www.sustech.edu.cn/) (SUSTech) in Shenzhen, China. I am interested in geometry, analysis and applied math, mainly topology data analysis and numerical computation. This webpage will share some notes in the lectures and seminars I am taking.
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
 
- 
-<p>
- <a href="CV_SiyuCen.pdf" target="_blank">CV</a>
- </p>
- 
- <p>
-  Email: sycen111@gmail.com
- </p>
-  
-## Seminars
-  
-   [Applied and Computational Topology](https://sustech-topology.github.io/)
-   
-   [Lie Groups](http://siyucen.github.io/LieGroups/)
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>SUSTech Topology</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>
+
+
+<body id="top">
+
+    <!-- pageheader
+    ================================================== -->
+    <section class="s-pageheader s-pageheader--home">
+
+        <header class="header">
+            <div class="header__content row">
+
+                <div class="header__logo">
+                       SUSTech Topology 
+                </div> <!-- end header__logo -->
+
+           
 
          
 
 
+               <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+
+                <nav class="header__nav-wrap">
+ 
+                    <h2 class="header__nav-heading h6">Close after Select</h2>
+
+                    <ul class="header__nav">
+                        <li><a href="#A" title="">About</a></li>
+                    <li><a href="#L" title="">Location</a></li>
+                        <li><a href="#T" title="">Talks</a></li>
+                        <li><a href="#R" title="">References</a></li>
+    
+                    </ul> 
+                    <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+                            
+                    
+                </nav>  
+            </div> <!-- header-content -->
+        </header> <!-- header -->
+
+
+        <div class="pageheader-content row">
+            <div class="col-full">
+
+                <div class="featured">
+
+                    <div class="featured__column featured__column--big">
+                        <div class="entry" style="background-image:url('Klein-bottle.png');">
+                            
+
+
+                            <div class="entry__content">
+
+                                <h1><a>Applied and Computational Topology Seminar</a></h1>
+
+               
+
+                                    <ul class="entry__meta">
+                                        <li>Southern University of Science and Technology</li>
+                                    </ul>
+                                </div>
+                            </div> <!-- end entry__content -->
+                            
+                        </div> <!-- end entry -->
+                    </div> <!-- end featured__big -->
+
+
+
+
+                 
+                </div> <!-- end featured -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end pageheader-content row -->
+
+    </section> <!-- end s-pageheader -->
+
+
+
+ <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--narrow s-content--no-padding-bottom">
+
+<article class="row format-standard">
+
+
+<h3><a id="A"></a>About</h3>
+
+            <p>This is a reading seminar on applied/computational topology.  We will be working from Edelsbrunner and Harer's 
+                <a href="Edelsbrunner-Harer.pdf" target="_blank">Computational topology: an introduction</a>.  To supplement 
+                presentations by participants, we will also invite experts in the field to speak.</p>
+            
+            <p>Computational topology has become a subject that applies to a wide range of topics.  This includes pattern 
+                recognition in data science, notably through the method of persistent homology.  It also employs computer 
+                softwares to study questions internal to topology and geometry.  We aim to gain an overview of the subject, 
+                learn its basic theory and examples, with an emphasis on persistent homology and its applications.</p>
+            
+            <p>The prerequisite is an undergraduate topology course.  Familiarity with computer programming will be a plus, 
+                as well as English proficiency.  For student participants, we encourage you to informally discuss the 
+                material with faculty participants prior to your presentations.</p>
+
+
+<h3><a id="L"></a>Location</h3>
+
+            <p>Tuesdays 9&ndash;12 in Huiyuan 3-415</p>
+
+
+<h3><a id="T"></a>Talks in Fall 2020</h3>
+
+            <p>Sep 15 '20, 
+                <b>Yifei Zhu and Ingrid Irmer</b>, 
+                <a onclick="toggle_visibility('1');">
+                    <i>Overview and organization</i></a><br />
+                <div id="1" class="toshow" style="display:none">
+                    Two past talks hosted by the Mathematics Department: 
+                    <li>Guowei Wei, <a href="https://icm.sustech.edu.cn/science/15" target="_blank">Mathematical AI for drug discovery</a></li>
+                    <li>Washington Mio, <a href="https://www.sustech.edu.cn/zh/topological-analysis-of-structural-and-functional-data.html" target="_blank">
+                        Topological analysis of structural and functional data</a></li>
+                    
+                    Motivations and basic ideas:
+                    <li>Gunnar Carlsson, <a href="Carlsson-sampler.pdf" target="_blank">Topological modeling of complex data</a></li>
+                    <li>Gunnar Carlsson, <a href="Carlsson-slides.pdf" target="_blank">Topology and data</a></li>
+                </div>
+            </p>
+        
+            <p>Sep 22 '20, 
+                <b>Xiabing Ruan</b>, 
+                <a onclick="toggle_visibility('2');">
+                    <i>Graphs and planar graphs</i></a><br />
+                <div id="2" class="toshow" style="display:none">
+                    Chapter I of Edelsbrunner&ndash;Harer, <a href="notes/I1.pdf" target="_blank">notes</a>
+                </div>
+            </p>
+        
+            <p>Sep 27 '20, 
+                <b>Xiabing Ruan and Ingrid Irmer</b>, 
+                <a onclick="toggle_visibility('3');">
+                    <i>Plane curves, knots and links; examples</i></a><br />
+                <div id="3" class="toshow" style="display:none">
+                    <li>Chapter I of Edelsbrunner&ndash;Harer, <a href="notes/I2.pdf" target="_blank">notes</a></li>
+                    <li>Combinatorial cell decomposition of moduli of surfaces: 
+                        background, <a href="graphs.png" target="_blank">graphs</a>, <a href="code.png" target="_blank">code</a></li>
+                </div>
+            </p>
+        
+            <p>Oct 13 '20, 
+                <b>Zhen Zhang and Siyu Chen</b>, 
+                <a onclick="toggle_visibility('4');">
+                    <i>Examples; surfaces</i></a><br />
+                <div id="4" class="toshow" style="display:none">
+                    <li>Some concrete examples from applied math supplementing the main text, <a href="graph-examples.pdf" target="_blank">slides</a></li>
+                    <li>Chapter II of Edelsbrunner&ndash;Harer, <a href="notes/Ch2notes.pdf" target="_blank">notes</a>, <a href="notes/orientation example.pdf" target="_blank">orientation example</a></li>
+                </div>
+            </p>
+        
+            <p>Oct 20 '20, 
+                <b>Siyu Chen</b>, 
+                <a onclick="toggle_visibility('5');">
+                    <i>surfaces (cont'd)</i></a><br />
+                <div id="5" class="toshow" style="display:none">
+                    Chapter II of Edelsbrunner&ndash;Harer, example of an application
+                </div>
+            </p>
+        
+            <p>Oct 23 '20 (Friday, 4:30&ndash;5:30 pm, zoom), 
+                <b>Jie Wu</b> (Hebei Normal University), 
+                <a onclick="toggle_visibility('6');">
+                    <i>Topological data analysis and topological approaches to drug design and discovery</i></a><br />
+                <div id="6" class="toshow" style="display:none">
+                    In this talk, we will report our current research on topological data analysis.  
+                    The talk will consist of three sections. In the first section, we give a brief 
+                    introduction to topological data analysis. Then, in the second section, we will 
+                    give a report on the current progress of topological approach to drug design 
+                    and discovery in the world. In the last section, we give a report on our works.
+                </div>
+            </p>
+        
+            <p>Oct 27 '20, 
+                <b>Jizhang Liu</b>, 
+                <a onclick="toggle_visibility('7');">
+                    <i>Complexes</i></a><br />
+                <div id="7" class="toshow" style="display:none">
+                    Chapter III of Edelsbrunner&ndash;Harer
+                </div>
+            </p>
+        
+            <p>Nov 6 '20 (Friday, 11:00 am&ndash;12:00 pm, zoom), 
+                <b>Andrew Blumberg</b> (University of Texas at Austin), 
+                <a onclick="toggle_visibility('8');">
+                    <i>TBA</i></a><br />
+                <div id="8" class="toshow" style="display:none">
+                    TBA
+                </div>
+            </p>
+        
+            <p> 
+                <b>Yifan Wu</b>, 
+                <a onclick="toggle_visibility('9');">
+                    <i>Homology</i></a><br />
+                <div id="9" class="toshow" style="display:none">
+                    Chapter IV of Edelsbrunner&ndash;Harer
+                </div>
+            </p>
+
+            <p> 
+                <b>Yifan Wu</b>, 
+                <a onclick="toggle_visibility('10');">
+                    <i>Duality</i></a><br />
+                <div id="10" class="toshow" style="display:none">
+                    Chapter V of Edelsbrunner&ndash;Harer
+                </div>
+            </p>
+
+
+<h3><a id="T"></a>Talks in Spring 2021</h3>
+
+            <p>Mar 26 '21 (Friday, 9:00&ndash;10:00 am, zoom), 
+                <b>Nathan Dunfield</b> (University of Illinois at Urbana-Champaign), 
+                <a onclick="toggle_visibility('11');">
+                    <i>TBA</i></a><br />
+                <div id="11" class="toshow" style="display:none">
+                    TBA
+                </div>
+            </p>
+
+<h3><a id="R"></a>References</h3>
+
+            <p>
+                <li><a href="References.pdf"_blank">Some references for computational topology</a></li>
+                
+            </p>
+
+
+<br /><br /><br />
+<p></p>
+</article>
+
+
+   
+
+
+    </section> <!-- s-content -->
+
+
+        <div class="s-footer__bottom">
+            <div class="row">
+                <div class="col-full">
+                    <div class="s-footer__copyright">
+                        <span>© Copyright Philosophy 2020</span> 
+                        <span>Site Template by <a href="https://colorlib.com/">Colorlib</a></span>
+                        <span>Photo from Wikimedia Commons</span>
+                    </div>
+
+                    <div class="go-top">
+                        <a class="smoothscroll" title="Back to Top" href="#top"></a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
 
